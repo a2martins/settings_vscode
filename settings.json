@@ -1,47 +1,39 @@
 {
-  // Configura tamanho e família da fonte
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-  // Configuração do terminal integrado
-  "terminal.integrated.fontFamily": "monospace",
-  "terminal.integrated.fontSize": 14,
-  // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
-  "editor.rulers": [
-    80,
-    120
-  ],
-  "editor.formatOnSave": false,
-  "eslint.packageManager": "yarn",
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true,
-    "source.organizeImports": true
-  },
-  "files.associations": {
-    ".sequelizerc": "javascript"
-  },
-  // Aplica um sinal visual na esquerda da linha selecionada
-  "editor.renderLineHighlight": "gutter",
-  // Define o tema dos ícones na sidebar
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Material Theme Ocean High Contrast",
-  "editor.tabSize": 2,
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx",
-  },
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-  },
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "gitlens.codeLens.recentChange.enabled": false,
-  "gitlens.codeLens.authors.enabled": false,
-  "gitlens.codeLens.enabled": false,
-  "breadcrumbs.enabled": true,
-  "git.enableSmartCommit": true,
-  "editor.parameterHints.enabled": false,
-  "typescript.updateImportsOnFileMove.enabled": "never",
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.colorCustomizations": {},
-  "git.autofetch": true,
-  "explorer.compactFolders": false,
-  "git.confirmSync": false
+    "breadcrumbs.enabled": false,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.organizeImports": true
+    },
+    "editor.renderLineHighlight": "gutter",
+    "editor.tabSize": 2,
+    "editor.parameterHints.enabled": false,
+    "eslint.packageManager": "yarn",
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx",
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+    },
+    "explorer.compactFolders": false,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.fontSize": 14,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.iconTheme": "eq-material-theme-icons-ocean",
+    "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
+    "workbench.startupEditor": "newUntitledFile",
 }
